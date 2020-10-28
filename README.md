@@ -1,37 +1,29 @@
 # wenjuanX
 
-#### 介绍
-问卷星自动填写
+介绍
+--
 
-#### 软件架构
-软件架构说明
+> **问卷星**自动填写
+> 支持自定义选项位置 填写内容  **要知道 第几页和第几个 div**
+> *例：page 9 div301*
+> 目前支持自动填写：输入框<textarea> 选择<a> 下拉菜单<select>
+> 
 
+用到的库
+----
+```python
+import random
+import time
+from selenium import webdriver
+```
 
-#### 安装教程
+注意事项
+----
+```shell
+# 程序目前还有很多需要优化的地方，现在只是实现了对应功能
+# 不知道这个运行速度算不算正常，后期会抽时间优化逻辑
+```
+> 另外说一句 selenium库真的非常好用
 
-1.  xxxx
-2.  xxxx
-3.  xxxx
-
-#### 使用说明
-
-1.  xxxx
-2.  xxxx
-3.  xxxx
-
-#### 参与贡献
-
-1.  Fork 本仓库
-2.  新建 Feat_xxx 分支
-3.  提交代码
-4.  新建 Pull Request
-
-
-#### 特技
-
-1.  使用 Readme\_XXX.md 来支持不同的语言，例如 Readme\_en.md, Readme\_zh.md
-2.  Gitee 官方博客 [blog.gitee.com](https://blog.gitee.com)
-3.  你可以 [https://gitee.com/explore](https://gitee.com/explore) 这个地址来了解 Gitee 上的优秀开源项目
-4.  [GVP](https://gitee.com/gvp) 全称是 Gitee 最有价值开源项目，是综合评定出的优秀开源项目
-5.  Gitee 官方提供的使用手册 [https://gitee.com/help](https://gitee.com/help)
-6.  Gitee 封面人物是一档用来展示 Gitee 会员风采的栏目 [https://gitee.com/gitee-stars/](https://gitee.com/gitee-stars/)
+#### 贡献人员
+@[hz2](https://gitee.com/JensenHua/)

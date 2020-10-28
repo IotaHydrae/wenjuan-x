@@ -7,13 +7,13 @@
 > 支持自定义选项位置 填写内容  **要知道 第几页和第几个 div**
 > *例：page 9 div301*
 > 目前支持自动填写：输入框**textarea** 选择**a** 下拉菜单**select**
-> 
 
 用到的库
 ----
 ```python
 import random
 import time
+import os
 from selenium import webdriver
 ```
 

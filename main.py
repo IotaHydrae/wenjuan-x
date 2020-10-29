@@ -1,6 +1,7 @@
 # coding:utf-8
 import random
 import time
+
 from selenium import webdriver
 
 
@@ -201,10 +202,11 @@ if __name__ == '__main__':
         driver.get(url)
         # 启动函数
         start(driver)
+        # 等待1秒进行下一轮
+        time.sleep(1)
         # 刷新浏览器
         driver.refresh()
         # 问卷数+1
         survey_count += 1
-        # 等待1秒进行下一轮
-        time.sleep(1)
+
     # debug()
